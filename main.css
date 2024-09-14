@@ -1,0 +1,189 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    --width:60%;
+}
+
+
+@media (max-width:768px) {
+    html{
+        --width:95%;
+    }
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    background-color: #eee;
+    margin: 0;
+    
+}
+
+
+h1{
+    width: var(--width);
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 10px auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.currency-convert{
+    width: var(--width);
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #9E9E9E;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+
+
+.currency-convert .currency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.currency-convert select,
+.currency-convert input{
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currency-convert select:focus,
+.currency-convert input:focus{
+    outline: none;
+
+}
+
+.currency-convert select {
+    width: 45%;
+}
+
+.currency-convert .currency-inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.currency-convert input{
+    width: 45%;
+    padding: 15px 10px;
+    background-color: #e7e7e7;
+    border-bottom: 1px solid white;
+   
+}
+
+
+
+
+.change{
+    cursor: pointer;
+    transition: transform .5s;
+    position: relative;
+    top: 28px;    
+
+}
+
+.currency-screen{
+    width: var(--width);
+    margin: 10PX auto;
+    color: black;
+    background-color: white;
+    display: block;
+   
+
+}
+.currency-screen .screen-heeder{
+    width: 100%;
+    margin: 0 ;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #9E9E9E;
+    text-align: center;
+}
+
+.currency-screen .againt-egp{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc((99% / 2) - 5px);
+    margin: 5px 0 5px 3px;
+    box-sizing: border-box;
+    background-color: #eee;
+    padding: 0 10px;
+    border-bottom: 1px solid black;
+
+}
+
+footer{
+    height: 50px;
+    max-width: 900px;
+    margin: 0 auto 5px;
+    position: absolute;
+    left: calc(50% - 90px);
+    bottom: 0 ;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:0.3s;
+    padding: 20px;
+    background-color: white;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+.vk {
+    color: #4C75A3;
+    border: 2px solid #4C75A3;
+
+}
+
+.telegram {
+    color: #0088cc;
+    border: 2px solid #0088cc;
+}
+
+.github {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.facebook {
+    color: #1877F2;
+    border: 2px solid #1877F2;
+}
+
+.instagram {
+    color: #E1306C;
+    border: 2px solid #E1306C;
+}
+
+
+

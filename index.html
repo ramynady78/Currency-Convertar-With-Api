@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Currency Convertar With Api</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <h1>Currency Converter</h1>
+
+    <div class="currency-screen">
+       <div class="screen-heeder"> 
+        <p>EXCHANGE RATES</p></div>
+    </div>
+    <div class="currency-convert">
+        <p class="field-massege"></p>
+        <div class="currency">
+            <select class="From"  onclick="convertCurrency()">
+              
+            </select>
+           <span class="change"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#75FB4C"><path d="M274-120 80-314l194.67-194.67 47 46.67L207-347.33h633v66.66H207l114 114L274-120Zm412-331.33L639-498l114-114H120v-66.67h633L638.33-793.33l47-46.67L880-645.33l-194 194Z"/></svg></span>
+            <select class="To" onclick="convertCurrency()">
+            
+            </select>
+        </div>
+
+
+        <div class="currency-inputs">
+            <input type="number" class="amount" placeholder="Amount">
+            <input type="number" class="results" placeholder="result">
+        </div>
+        
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://vk.com/id704406318" class="vk" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://t.me/ramynady8" class="telegram" target="_blank" ><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://github.com/ramynady78" class="github" target="_blank" ><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
