@@ -69,6 +69,7 @@ h1{
 
 .currency-convert select {
     width: 45%;
+    color: black;
 }
 
 .currency-convert .currency-inputs{
